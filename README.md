@@ -18,9 +18,3 @@ VARIABLE:
 	- ports
 	- routes variables
 	- .env file
-
-questions:
-JWT_SECRET,what is it used for?, 
-is it a constant variable or does it change for every user, if it is meant to be a user variable?
-I have thought that we could use a function that maps the database schema and collects all the 
-possible routes in it so we can obtein quickly all the routes to configure the api's methods.
